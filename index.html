@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Yandex form</title>
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<script src="./js/jquery-3.2.1.min.js"></script>
+	<script src="./js/bootstrap.min.js" ></script>
+	
+</head>
+<body>
+	<div class="container">
+		<div class="form_container">
+			<form id="myForm" class="row" action="http://127.0.0.1:8080/newUser">
+				<div class="form-group">
+					<label for="fio">ФИО</label>
+					<div>
+						<input name="fio" id="fio" placeholder="ФИО" class="form-control">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="email">Email</label>
+					<div>
+						<input name="email" id="email" placeholder="Электронная почта" class="form-control">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="phone">Телефон</label>
+					<div>
+						<input name="phone" id="phone" placeholder="+7(999)999-99-99" class="form-control">
+					</div>
+				</div>
+				<button type="submit" class="btn btn-primary" id="submitButton">Submit</button>
+			</form>
+		</div>
+		<div id="resultContainer">					
+		</div>
+	</div>
+	<script src="./index.js"></script>
+</body>
+</html>

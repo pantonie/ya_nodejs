@@ -1,0 +1,18 @@
+.form_container {
+	width: 600px;
+	margin: 20px auto auto auto;
+
+}
+.error {
+	border: 1px solid red
+}
+#resultContainer {
+	width: 600px;
+	margin: 20px auto auto auto;
+	padding: 5px;
+	height: 40px;
+}
+#resultContainer > p {
+	padding: 5px;
+	height: 30px;
+}
